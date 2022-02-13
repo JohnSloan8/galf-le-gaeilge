@@ -3,10 +3,14 @@ $secondary: #048BA8;
 $info: #2E4057;
 
 @font-face {
-  font-family: 'MyFont';
-  src: local('MyFont'), url(./fonts/MyFont.woff) format('woff');
+  font-family: 'AEC';
+  src: local('AndronEIRCorpus'), url(./fonts/AndronEIRCorpus-lar.woff2) format('woff2');
   /* other formats include: 'woff2', 'truetype, 'opentype',
                             'embedded-opentype', and 'svg' */
+}
+
+.container {
+  font-family: AEC;
 }
 
 @import 'node_modules/bootstrap/scss/bootstrap.scss';
